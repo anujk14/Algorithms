@@ -1,0 +1,13 @@
+This file contains various resources that help with the basics or python:
+
+1) Check how to import a module in Python:
+https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial/Importing_Modules
+
+2) Information about choosing when to run a Python file vs when to just import it:
+https://stackoverflow.com/questions/6523791/why-is-python-running-my-module-when-i-import-it-and-how-do-i-stop-it
+
+3) How to create a Python package:
+https://www.pythoncentral.io/how-to-create-a-python-package/
+
+4) What is __pycache__:
+https://stackoverflow.com/questions/16869024/what-is-pycache
