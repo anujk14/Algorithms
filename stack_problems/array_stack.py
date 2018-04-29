@@ -1,20 +1,20 @@
 class ArrayStack:
     def __init__(self):
-        self.bangles = []
+        self.node_array = []
 
-    def push(self, bangle_colour="red"):
-        self.bangles.append(bangle_colour)
+    def push(self, node):
+        self.node_array.append(node)
 
     def pop(self):
         # Implement a method that replicates how pop works on a stack
         if self.size() > 0:
-            return self.bangles.pop()
+            return self.node_array.pop()
         else:
             return None
 
     def size(self):
         # Prints the size of a stack (i.e., the number of items in a stack)
-        return len(self.bangles)
+        return len(self.node_array)
 
     def is_empty(self):
         # Checks if the stack is currently empty
@@ -23,5 +23,5 @@ class ArrayStack:
     def display(self):
         print("\n")
         for node in range(self.size() - 1, -1, -1):
-            print(self.bangles[node])
+            print(self.node_array[node])
         print("\n")
