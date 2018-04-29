@@ -18,7 +18,7 @@ class ArrayStack:
 
     def is_empty(self):
         # Checks if the stack is currently empty
-        return self.size == 0
+        return self.size() == 0
 
     def display(self):
         print("\n")
