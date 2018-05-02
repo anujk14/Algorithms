@@ -1,3 +1,4 @@
 # Ignore all binary files
 *.DS_Store
 */__pycache__
+*.pyc
