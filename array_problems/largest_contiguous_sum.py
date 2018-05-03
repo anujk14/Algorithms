@@ -7,12 +7,20 @@
 def find_largest_contiguous_sum(arr):
 	current_max_sum = 0
 	final_max_sum = 0
-	for val in arr:
-		current_max_sum += val
+	start = 0
+	end = 0
+	s = 0
+	for i in range(0, len(arr)):
+		current_max_sum += arr[i]
 		if current_max_sum < 0:
 			current_max_sum = 0	
+			s = i + 1
 		elif final_max_sum < current_max_sum:
 			final_max_sum = current_max_sum
+			start = s
+			end = i
+	print("start is %d" %(start))
+	print("end is %d" %(end))		
 		
 	return final_max_sum
 
