@@ -14,9 +14,7 @@ def find_largest_contiguous_sum(arr):
 		elif final_max_sum < current_max_sum:
 			final_max_sum = current_max_sum
 		
-
 	return final_max_sum
-
 
 def main():
     num = int(input("Enter number of elements in the array\n"))
@@ -30,7 +28,6 @@ def main():
     sum = find_largest_contiguous_sum(arr)
 
     print("The largest contiguous sum is %d" %(sum))
-
 
 if __name__ == "__main__":
     main()
