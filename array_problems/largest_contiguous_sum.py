@@ -5,7 +5,17 @@
 
 
 def find_largest_contiguous_sum(arr):
-    return 0
+	current_max_sum = 0
+	final_max_sum = 0
+	for val in arr:
+		current_max_sum += val
+		if current_max_sum < 0:
+			current_max_sum = 0	
+		elif final_max_sum < current_max_sum:
+			final_max_sum = current_max_sum
+		
+
+	return final_max_sum
 
 
 def main():
