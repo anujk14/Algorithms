@@ -1,3 +1,3 @@
 # Algorithms
 
-Implementation of basic algorithms and data structures in Python.
+Implementation of basic algorithms and data structures in Python and Javascript.
